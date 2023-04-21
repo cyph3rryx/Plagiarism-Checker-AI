@@ -2,6 +2,9 @@ import nltk
 from nltk.corpus import stopwords
 from collections import Counter
 import spacy
+from tkinter import filedialog
+from tkinter import Tk
+
 nlp = spacy.load("en_core_web_sm")
 
 def preprocess(text):
@@ -39,3 +42,12 @@ def check_plagiarism(file1, file2, threshold=0.8):
         print(f"Plagiarism detected! Score: {score:.2f}")
     else:
         print("No plagiarism detected.")
+
+# prompt user to upload files
+root = Tk()
+root.withdraw()
+file1 = filedialog.askopenfilename(title="Select file 1")
+file2 = filedialog.askopenfilename(title="Select file 2")
+
+# check plagiarism
+check_plagiarism(file1, file2)
