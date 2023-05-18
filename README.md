@@ -23,11 +23,11 @@ The script will compare the two files and print a message indicating whether pla
 
 The script uses the following steps to check for plagiarism:
 
-1. Preprocess the text by removing stopwords and punctuations.
+    1. Preprocess the text by removing stopwords and punctuations.
 
-2. Create document objects using spaCy.
+    2. Create document objects using spaCy.
 
-3. Compute the similarity score using the `similarity` method of the spaCy document object.
+    3. Compute the similarity score using the `similarity` method of the spaCy document object.
 
 4. If the score is above a threshold (default value is 0.8), plagiarism is detected.
 
