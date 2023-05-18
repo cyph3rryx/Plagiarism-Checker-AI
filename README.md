@@ -29,7 +29,7 @@ The script uses the following steps to check for plagiarism:
 
     3. Compute the similarity score using the `similarity` method of the spaCy document object.
 
-4. If the score is above a threshold (default value is 0.8), plagiarism is detected.
+    4. If the score is above a threshold (default value is 0.8), plagiarism is detected.
 
 ## License
 
