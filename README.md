@@ -1,6 +1,6 @@
 # Plagiarism Checker
 
-This is a Python script that can check for plagiarism between two text documents using Natural Language Processing (NLP) libraries such as NLTK and spaCy.
+This is a Python script that can check for plagiarism between two text documents using Natural Language Processing (NLP) libraries such as NLTK and spaCy
 
 ## Usage
 
