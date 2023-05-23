@@ -11,6 +11,8 @@ pip install nltk spacy
 python -m spacy download en_core_web_sm
 ```
 
+
+
 2. Run the script and follow the prompts to select the files to compare:
 
 ``` python 
@@ -19,7 +21,7 @@ python plagiarism_checker.py
 
 The script will compare the two files and print a message indicating whether plagiarism was detected or not.
 
-## How it works
+## How it works:
 
 The script uses the following steps to check for plagiarism:
 
