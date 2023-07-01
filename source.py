@@ -7,6 +7,7 @@ from tkinter import Tk
 
 nlp = spacy.load("en_core_web_sm")
 
+
 def preprocess(text):
     # remove stopwords and punctuations
     stop_words = set(stopwords.words('english'))
